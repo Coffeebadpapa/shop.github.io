@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../assets/css/backgoods.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+      body{
+        font-family: "Noto Serif TC", serif;
+      }
+    </style>
+    <title>商品查詢</title>
+  </head>
+  <body>
+    <div class="hd">
+        <a href="index.html" class="logo"><img src="../assets/images/logo.png" style="width:100px;position: relative;left:15px;"></a>
+      </div>
+      <div class="hd2">
+        <button type="button" class="btn btn-outline-dark"style="position:relative ;left:948px;background-color:#b5bdc4;width:190px;height:100px;font-size:25px;"onclick="location.href='back.html'">管 理 者 介 面</button>
+      </div>
+
+      <div class="container-fluid">	
+        <div class="row">
+            <div class="col-md-12">
+                <div class="ttt">
+                    <h2 class="word">
+                    EZ CHECK商品查詢
+                    </h2>   
+                    <hr>                 
+                      <a class="btn btn-primary btn-large" style="position:relative;top:-80px; left:480px;background-color: #475b84;border-color: #475b84;" href="backgoods.html">重新整理</a>
+                    <p>
+                        <span style="font-size:20px; font-weight: bold;">房型編號：</span>HI4-1
+                        <br>
+                        <span style="font-size:20px; font-weight: bold;">飯店名稱：</span>台北喜來登大飯店
+                        <br>
+                        <span style="font-size:20px; font-weight: bold;">商品資訊：</span>
+                        <div class="ps">
+                          <div class="w1">
+                        Lakeshore Hotel Yilan 位於宜蘭市，距離幾米公園 3.6 公里，距離宜蘭中山公
+                        園 3.9 公里。這間住宿提供的設施與服務包括餐廳、24 小時接待櫃檯、禮賓服務
+                        以及全館 WiFi（免費）。這間住宿距離台灣戲劇館 4.2 公里，距離宜蘭設治紀念
+                        館 4.2 公里。
+                      </div>
+                      <div class="w1">
+                        Lakeshore Hotel Yilan 提供自助式或亞洲風味早餐。
+                      </div>
+                      <div class="w1">
+                        這間住宿距離蘭陽觀光夜市 4 公里，距離新月廣場 4 公里。最近的機場是台北松
+                        山機場，距離 Lakeshore Hotel Yilan 43 公里。
+                        </div>
+                        <div class="w1">
+                        獨行旅客特別喜歡這個位置－並給他們的單獨住宿體驗 8.0 分
+                        </div>
+                        <div class="w1">
+                        <span style="font-weight: bold;">煙波大飯店宜蘭館自 2018 年 7 月 24 日開始接待旅客入住。<br>
+                        </div>
+                        </div>
+                        <br>
+                            <span style="font-size:28px; font-weight: bold;">單人房</span>
+                            <br><br>
+                            <span style="font-size:20px; font-weight: bold;">房間剩餘名額：</span><input type="text" class="form-control" style="width:200px;position: relative; left:140px;top:-35px;"
+                             value="100" name="stock">
+                            <span style="font-size:20px; font-weight: bold;">價格：</span><input type="text" class="form-control" value="3000" style="width:200px;position: relative; left:140px;top:-35px;" name="price">
+                            <br>
+                            <span style="font-size:28px; font-weight: bold;">雙人房</span>
+                            <br><br>
+                            <span style="font-size:20px; font-weight: bold;">房間剩餘名額：</span><input type="text" class="form-control" style="width:200px;position: relative; left:140px;top:-35px;"
+                             value="100" name="stock">
+                            <span style="font-size:20px; font-weight: bold;">價格：</span><input type="text" class="form-control" value="3000" style="width:200px;position: relative; left:140px;top:-35px;" name="price">
+                            <br>
+                            <span style="font-size:28px; font-weight: bold;">家庭式</span>
+                            <br><br>
+                            <span style="font-size:20px; font-weight: bold;">房間剩餘名額：</span><input type="text" class="form-control" style="width:200px;position: relative; left:140px;top:-35px;"
+                             value="100" name="stock">
+                            <span style="font-size:20px; font-weight: bold;">價格：</span><input type="text" class="form-control" value="3000" style="width:200px;position: relative; left:140px;top:-35px;" name="price">
+                            <br>
+                            <input type="hidden" name="monumber" value="A4701">
+                            <button type="submit" class="btn btn-primary btn-large" style="background-color: #475b84;border-color: #475b84;">修改</button>
+                        </form>
+                        <p>
+                          <form method="post" action="deletemember.jsp">
+                          <input type="hidden" name="memberId" value="1">
+                          <button type="submit" class="btn btn-primary btn-large" style="position:relative;left:120px; top:-53px;background-color: #475b84;border-color: #475b84;">刪除該商品</button>
+                          </form>
+                      </p>
+                        <hr>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                    
+            <div class="footer">
+              <div class="f_text">Copyright © 2021. All rights reserved.</div>
+          </div>
+    
+                    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

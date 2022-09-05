@@ -1,0 +1,120 @@
+.body{
+    position:absolute;
+    width:100%;
+    font-family: "Noto Serif TC", serif;
+}
+
+.hd{
+    position:relative;
+    background-color:#FFED97;
+    width:10%;
+}
+.hd2{
+    position: relative;
+    background-color: #033261ee;
+    width:90%;
+    height:100px;
+    left:10%;
+    top:-100px;
+}
+.carousel-inner {
+    position:relative;
+    width:30%;
+    left:5%;
+    }
+.carousel-inner3 {
+    position:relative;
+    width:30%;
+    left:65%;
+    top:-250px;
+    height:300px;
+    }
+.carousel-inner4 {
+    position:relative;
+    width:30%;
+    left:5%;
+    top:-300px;
+    }
+.carousel-inner6 {
+    position:relative;
+    width:30%;
+    left:65%;
+    top:-300px;
+    }
+.pose{
+    position: absolute;
+    left:40%;
+    z-index: 4;
+    top:10px;
+}
+.poseword{
+    position: absolute;
+    left:40.5%;
+    z-index: 4;  
+    top:220px;   
+}
+.bkbk{
+    position: absolute;
+    left:35%;
+    z-index: 3;
+    top:0px;
+    opacity:1;
+}
+.carousel-item{
+    width:100%;
+}
+.buttonn{
+    position:absolute;
+    left:40%;
+    z-index: 3;
+    top:330px;
+    
+}
+.buttonn1{
+    position:absolute;
+    left:50%;
+    z-index: 3;
+    top:330px;
+}
+.buttonn2{
+    position:absolute;
+    left:40%;
+    z-index: 3;
+    top:400px;
+}
+.buttonn3{
+    position:absolute;
+    left:50%;
+    z-index: 3;
+    top:400px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#af9f8c;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #003060;
+    position: relative;
+    top: 100px;
+}
+
+.f_text{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+.im1{
+    position: relative;
+    width:100%;
+    top:30px;
+}
+.im1 img{
+    width: 350px;
+    height: 250px;
+}
+.btn btn-outline-dark{
+    background-color: brown;
+}

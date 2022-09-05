@@ -1,0 +1,282 @@
+body{
+    width: 100% auto;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+.contain {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #677583;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.dropdown {
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -40px;
+    top: 80px;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 2;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover {
+    background-color: #ddd;
+}
+  
+.show {
+    display: block;
+}
+.title .location{
+    position: absolute;
+    top: 130px;
+    left: 35px;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #092e50;
+    font-size: 50px;
+}
+.font{
+    font-size: 40px;
+    position: absolute;
+    top: 155px;
+    left: 100px;
+}
+
+.list{
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 150px;
+    float:left;
+    width:450px;
+	height:250px;
+	margin:15px 15px 15px 120px;
+}
+
+.hotel_p1,.hotel_p2,.hotel_p3, .hotel_p4, .hotel_p5, .hotel_p6{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: -50px;
+    top: 150px;
+    cursor: pointer;
+}
+
+.hotel_p2{
+    position: absolute;
+    left: 670px;
+}
+
+.hotel_p3{
+    position: absolute;
+    top: 405px;
+}
+
+.hotel_p4{
+    position: absolute;
+    left: 670px;
+    top: 405px;
+}
+
+.hotel_p5{
+    position: absolute;
+    top: 670px;
+}
+.hotel_p6{
+    position: absolute;
+    top: 670px;
+    left: 670px;
+}
+.list img:hover{
+    opacity: 0.6;
+
+}
+.list a:hover .hover1
+,.list a:hover .hover2
+,.list a:hover .hover3
+,.list a:hover .hover4
+,.list a:hover .hover5
+,.list a:hover .hover6{
+    display: block;
+}
+
+.hover1, .hover2,.hover3,.hover4,.hover5,.hover6{
+    position: absolute;
+    left: 30px;
+    top: 230px;
+    z-index: 1;
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+
+.hover2{
+    position: absolute;
+    left: 750px;
+}
+.hover3{
+    position: absolute;
+    top: 490px;
+}
+.hover4{
+    position: absolute;
+    top: 490px;
+    left: 750px;
+}
+.hover5{
+    position: absolute;
+    top: 755px;
+}
+.hover6{
+    position: absolute;
+    top: 755px;
+    left: 750px;
+}
+
+.h_info1{
+    position: absolute;
+    left: 270px;
+    top: 150px;
+    width: 240px;
+}
+.h_info2{
+    position: absolute;
+    left: 1000px;
+    top: 150px;
+    width: 240px;
+}
+.h_info3{
+    position: absolute;
+    left: 380px;
+    top: 400px;
+    width: 240px;
+}
+.h_info4{
+    position: absolute;
+    left: 1000px;
+    top: 400px;
+    width: 240px;
+}
+.h_info5{
+    position: absolute;
+    left: 380px;
+    top: 670px;
+    width: 240px;
+}
+
+.h_info6{
+    position: absolute;
+    left: 1000px;
+    top: 670px;
+    width: 240px;
+}
+
+.h_title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.h_title:hover{
+    text-decoration: underline;
+}
+.h_text{
+    color: #414040;
+}
+.ratings{
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color: #ddd;
+    overflow: hidden;
+    font-size: 20px;
+    text-shadow: 0px 1px 0 #999;
+}
+.full_star1, .full_star2, .full_star3, .full_star4, .full_star5, .full_star6{
+    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #ffe600;
+}
+.full_star2{
+     width: 80%;
+ }
+.full_star3{
+    width: 70%;
+}
+.full_star4{
+    width: 85%;
+}
+.full_star5{
+    width: 70%;
+}
+.full_star6{
+    width: 75%;
+}
+.h_money{
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    color: #232369;
+}
+.hr1, .hr2{
+    position: absolute;
+    top: 360px;
+    left: -80px;
+    width: 610px;
+}
+.hr2{
+    position: absolute;
+    left: 650px;
+}
+.hr3,.hr4{
+    position: absolute;
+    top: 620px;
+    left: 30px;
+    width: 610px;
+}
+.hr4{
+    position: absolute;
+    left: 650px;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    top:200px!important;
+    background-color: #003060;
+}
+
+.f_text{
+    color: white;
+    text-align: center;
+}
+.product_right{
+    width:300px;
+    height:300px;
+
+}

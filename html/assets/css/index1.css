@@ -1,0 +1,366 @@
+body{
+    min-width: 100%;
+    min-height: 100%;
+    margin:0;
+    padding:0;
+    font-family: "Noto Serif TC", serif;
+}
+.nav{
+    background:#c1cbd7;
+}
+.logo{
+    margin-left:30px;
+}
+.btn{
+    height:45px;
+    margin-top:30px;
+    margin-right:30px;
+    width:90px;
+    background-color: #677583;
+    border: none;
+}
+.btn:hover{
+    background-color: #d0c0a6;
+}
+.carousel-inner {
+    position:relative;
+    width:100%;
+    height:600px;
+    top:-25px;
+    }
+    .carousel-indicators{
+        top:590px;
+    }
+.bwpp{
+    position: absolute;
+    left:89%;
+    top:60px;
+    }
+.fun{
+ position: relative;
+ left:75%;
+}
+.fun2{
+    position: relative;
+    left:55%;
+   }
+.contain {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #677583;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.dropdown {
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -40px;
+    top: 40px;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 2;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover {
+    background-color: #ddd;
+}
+  
+.show {
+    display: block;
+}
+.modal-title{
+font-family: Arial Black;
+}
+.form-label{
+    font-weight: bold;
+}
+.modal-footer {
+    justify-content: center;
+    left:90px;
+}
+.modal-footer>*{
+margin-top:10px;
+}
+.search{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    left: 0px;
+    top: -29px;
+    background-color: #f8b840;
+}
+
+.s1{
+    width: 20px;
+    height: 20px;
+}
+
+.container{
+    width: 500px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: absolute;
+    left: 25%;
+    background-color: #f8b840;
+    padding: 15px;
+}
+
+.container input#search{
+    width: 600px;
+    height: 50px;
+    background: white;
+    border: 1px solid skyblue;
+    font-size: 17px;
+    float: left;
+    color: black;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+}
+
+.container .icon1{
+    position: absolute;
+    top: 12px;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
+.container .icon1:hover, .date .icon2:hover
+, .date .icon2-1:hover, .people .icon3:hover{
+    color: 	#0080FF;
+}
+
+.container input#search:hover, .container input#search:focus
+, .container input#search:active
+, .date input#cdate:hover, .date input#cdate:focus
+, .date input#cdate1:hover, .date input#cdate1:focus
+, .choose:hover, .choose:focus{
+    outline: #4e5052 solid 1px;
+}
+
+.date{
+    width: 500px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: absolute;
+    left: 26%;
+    padding: 15px;
+    top: 65px;
+}
+
+.date .icon2, .people .icon3, .date .icon2-1{
+    position: absolute;
+    top: 15px;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
+
+.icon2-1{
+    position: absolute;
+    left: 325px;
+}
+
+.date input#cdate, .date input#cdate1{
+    width: 290px;
+    height: 50px;
+    background: white;
+    border: 1px solid skyblue;
+    font-size: 17px;
+    float: left;
+    color: black;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+}
+
+#cdate1{
+    position: absolute;
+    left: 325px;
+}
+
+.show_text::before{
+    content: attr(placeholder);
+}
+
+.people{
+    width: 500px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: absolute;
+    left:19.2%;
+    padding: 15px 100px;
+    top: 130px; 
+}
+
+.people select{
+    width: 390px;
+    height: 50px;
+    background: white;
+    border: 1px solid skyblue;
+    font-size: 17px;
+    float: left;
+    color: black;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button{
+    background-color: #46A3FF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.submit .button{
+    width: 600px;
+    height: 49px;
+    position: absolute;
+    left: 13px;
+    top: 80px;
+    font-size: 18px;
+}
+
+.submit .button:hover{
+    background-color: #004B97;
+}
+.quickbtn{
+    position: relative;
+    left: 9%;
+    margin: 20px;
+    padding: 10px 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+}
+.quickbtn:hover{
+    background-color: #3a3a63;
+    color: white;
+}
+
+.text{
+    text-align: center;
+    padding: 60px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.city{
+    position: relative;
+    padding-bottom: 50px;
+    width:300px;
+    left:-6%;
+}
+
+.p_text, .p_text1{
+    font-size: 35px;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    z-index: 1;
+    color: white;
+}
+
+.photo, .photo2{
+    width: 530px;
+    height: 400px;
+    position: absolute;
+    left: 180px;
+    top: 0px;
+}
+
+.photo:hover, .photo2:hover, .photo3:hover, .photo4:hover, .photo5:hover{
+    opacity: 0.7;
+}
+
+.photo2{
+    position: absolute;
+    left: 720px;
+}
+.p_text1{
+    position: absolute;
+    left: 740px;
+}
+
+.photo3, .photo4, .photo5{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 180px;
+    top: 410px;
+}
+
+.p_text2, .p_text3, .p_text4{
+    position: absolute;
+    top: 420px;
+    left: 200px;
+    z-index: 1;
+    font-size: 30px;
+    color: white;
+}
+
+.photo4{
+    position: absolute;
+    left: 540px;
+}
+.p_text3{
+    position: absolute;
+    left: 560px;
+}
+
+.photo5{
+    position: absolute;
+    left: 900px;
+}
+.p_text4{
+    position: absolute;
+    left: 920px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #003060;
+    position: relative;
+    top: 820px;
+}
+
+.f_text{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}

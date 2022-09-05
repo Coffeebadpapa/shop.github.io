@@ -1,0 +1,160 @@
+html{
+	width: 100%;
+	overflow-x: hidden;
+}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#cartitle{
+	margin-top: 2%;
+	padding-right:20%;
+	padding-left:20%;	
+}
+
+#orderbg{
+	
+	margin-top: 2%;
+	padding-right:20%;
+	padding-left:20%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color:#e7eaee;
+
+}
+.row{
+	width:100%;
+}
+
+#carsum{
+	margin-left: 70%;
+	margin-right:0%;
+	
+}
+
+#carsumfont{
+	font-family: "微軟正黑體";	
+	color:red;	
+	font-weight: bolder;
+
+}
+
+
+
+#carbtn{
+	margin-left:50%;
+	margin-top:-15%;
+
+	
+}	
+.form-control{
+	background-color:black;
+}
+.col-md-12{
+	width:100%;
+}
+.col-md-3{
+	position: relative;
+	left:-100px;
+}
+/*
+#allcar
+	font-family:Microsoft JhengHei;
+
+}*/
+
+h3.yourcar{
+
+	margin-top: 0%;
+	margin-bottom: 5%;
+
+}
+
+h3.cartitle{
+	font-size:25px;
+}
+
+.yourcar{
+	position: relative;
+	left:60px;
+	font-size:48px;
+	top:30px;
+	width:600px;;
+}
+.kkk{
+	position:relative;
+	left:100px;
+	top:90px;
+	font-size: 20px;
+	text-align: center;
+}
+.kk{
+	position:relative;
+	left:100px;
+	top:60px;
+	font-size: 20px;
+	text-align: center;
+}
+.kkkk{
+	position:relative;
+	left:-30px;
+	top:20px;
+	font-size: 20px;
+	text-align: center;
+}
+.jjj{
+	color:#9b5500d5;
+	position: relative;
+	left:75%;
+
+}
+
+mark {
+background: linear-gradient(#fff 75%, #ffbf7f 0%) !important;
+font-weight:bold; 
+}
+
+h3.topfont{
+	font-size:24px;
+	left:100px;
+	position: relative;
+	font-weight:bold;
+	top:10px;
+
+}
+#orderbg{
+	background-color: rgba(119, 78, 1, 0.301);
+	width:102.8%;
+	position: relative;
+
+}
+.form-control{
+	background-color: rgb(255, 255, 255);
+}
+.footer1{
+    width: 100%;
+    height: 100px;
+    background-color: #003060;
+    position: relative !important;
+    bottom:0px;
+    left:0px;
+	padding-top: 10px;
+}
+
+
+.f_text{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+hr{
+	width: 90%;
+	position: relative;
+	left: 50px;
+	
+}
+.row{
+	padding-bottom:30px;
+}

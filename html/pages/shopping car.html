@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/shopping car.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/index1.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/cwtexyen.css" rel="stylesheet">
+    <title>預訂清單</title>
+  </head>
+  <body>
+    <ul class="nav">
+      <a href="index.html" class="logo"><img src="../assets/images/logo.png" style="width:100px;"></a>
+  <nav class="fun">
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabe1">John  us !</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">信箱：</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">姓名：</label>
+            <input  type="password" class="form-control" id="exampleInputPassword1" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">手機：</label>
+            <input  type="tel" class="form-control" id="exampleInputPassword1" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">帳號：</label>
+            <input  type="text" class="form-control" id="exampleInputPassword1" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">密碼：</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">密碼確認：</label>
+            <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">地址：</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">註冊</button>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+    </ul>
+    <br>
+
+    <img src="../assets/images/buy.webp" style="width:10%;position:absolute;left:1050px;top:130px;">
+      <div class="row" id="allcar">
+        <div class="col-md-12" >
+            <h3 class="yourcar"><mark>
+            預訂清單</mark>
+            </h3>
+            <!--(橫)商品、總計-->
+            <div class="row" id="cartitle">
+                <div class="col-md-3">
+                    <h3 class="topfont">
+                    
+                    </h3>
+                </div>
+                <div class="col-md-3">
+                    <h3  class="topfont">
+                      飯店房型
+                    </h3>
+                </div>
+                <div class="col-md-3">
+                  <h3  class="topfont">
+                    日期
+                  </h3>
+              </div>
+                <div class="col-md-3">
+                    <h3  class="topfont">
+                      數量與金額
+                    </h3>
+                </div>
+            </div>
+            <hr>
+            <div class="row" id="cartitle">
+              <div class="col-md-3">
+                <span class="kkkk">
+                  <img src="../assets/images/TP1-1.jpg" style="width:180%">
+                </span>
+              </div>
+
+              <div class="col-md-3">
+                <span class="kkk">
+                  台北W 酒店<br>
+                  單人房
+                </span>
+              
+              </div>
+
+            <div class="col-md-3">
+              <span class="kkk">
+              7/1～7/2
+            </span>
+            </div>
+            <div class="col-md-3">
+              <span class="kkk">
+              NT.3000＊2間
+            </span>
+                <button type="submit" class="btn btn-success" id="carbtn" style="position:relative;left:230px;top:75px;">
+                      取消預訂
+                </button>
+            </div>
+            </div>
+            <br><br>
+            <hr>
+            <div class="row">
+							<div class="col-md-12">
+								<h3 class="jjj">
+								TOTAL：NT.6000
+								</h3>
+							</div>
+						</div>
+
+            <button type="button" class="btn btn-primary" style="position:relative;left:600px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              下單
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">付款方式</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <br>
+                        <div class="mb-3">
+                          <div class="form-check-inline">
+                            <label class="form-check-label" style="position: relative;left:110px;top:-50px;">
+                              <img src="../assets/images/atm.png"style="width: 60px ; position:absolute; left:-25px;top:25px;">&nbsp;&nbsp;
+                              <input type="radio" name="payment" class="form-check-input" name="optradio" value="ATM轉帳"style="position:absolute;top:45px;left:-115px;"><span style="position:relative;left:-105px;top:45px;">ATM轉帳</span>
+                            </label>
+                            <label class="form-check-label" style="position: relative;left:110px;top:-50px;">
+                              <img src="../assets/images/money.png"style="width: 60px ; position:absolute; left:55px;top:25px;">&nbsp;&nbsp;
+                              <input type="radio" name="payment" class="form-check-input" name="optradio" value="ATM轉帳"style="position:absolute;top:45px;left:-30px;"><span style="position:relative;left:-25px;top:45px;">現金支付</span>
+                            </label>
+                            <label class="form-check-label" style="position: relative;left:110px;top:-50px;">
+                              <img src="../assets/images/line.png"style="width: 60px ; position:absolute; left:140px;top:25px;">&nbsp;&nbsp;
+                              <input type="radio" name="payment" class="form-check-input" name="optradio" value="ATM轉帳"style="position:absolute;top:45px;left:50px;"><span style="position:relative;left:55px;top:45px;">LINE PAY</span>
+                            </label>
+                          </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">確認付款</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+            <div class="footer" style="position:absolute;top:1200px;">
+              <div class="f_text">Copyright © 2021. All rights reserved.</div>
+            </div>
+          
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
